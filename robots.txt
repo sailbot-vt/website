@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://www.sailbot.aoe.vt.edu/sitemap.xml
