@@ -6,6 +6,5 @@ deploy:
     script:
     - aws s3 sync . s3://$S3_BUCKET_NAME  --delete --exclude ".*" --exclude ".*/*" --exclude "*/.DAV/*"
     - aws cloudfront create-invalidation --distribution-id=$DISTRIBUTION_ID --paths "/" "/*"
-    only:
-    - master
-
+    rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
