@@ -1,0 +1,6 @@
+Contact: mailto:itso@vt.edu
+Preferred-Languages: en
+Canonical: https://sailbot.aoe.vt.edu/.well-known/security.txt
+Policy: https://bugbounty.iso.vt.edu/
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/F3D2F6714EF6B251BDFF18947279C76A0FAC6413
+Expires: 2024-12-31T18:30:00z
